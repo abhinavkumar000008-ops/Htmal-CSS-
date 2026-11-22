@@ -1,0 +1,16 @@
+# Name: Abhinav | Roll No: BCS2025447 H | Assignment 2
+$ git init --bare ../html-remote
+Initialized empty Git repository in /tmp/gitlab/html-remote/
+$ git remote add origin ../html-remote
+$ git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)
+$ git push origin main
+To ../html-remote
+ * [new branch]      main -> main
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+$ cd html-copy && git log --oneline
+05d48c6 Add next meeting heading
+80823bc Add home page

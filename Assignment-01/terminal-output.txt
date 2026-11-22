@@ -1,0 +1,10 @@
+# Name: Abhinav | Roll No: BCS2025447 H | Assignment 1
+$ mkdir html-lab && cd html-lab && git init -b main
+Initialized empty Git repository in /tmp/gitlab/html-lab/.git/
+$ git config user.name
+Abhinav
+$ git config user.email
+your.email@example.com
+$ (create index.html with h1) && git status
+On branch main
+
